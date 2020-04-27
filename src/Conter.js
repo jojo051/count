@@ -7,6 +7,7 @@ function Counter() {
 
   return (
     <div>
+    <h1> Bienvenue sur Netlify ! </h1>
       <p>Le compteur est  à : {count} </p>
       <button onClick={() => setCount(count + 1)}>
         +1
